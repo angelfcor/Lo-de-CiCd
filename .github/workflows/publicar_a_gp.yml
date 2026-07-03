@@ -27,7 +27,7 @@ jobs:
   build:
     environment:
       name: github-pages
-      url: ${{ steps.github-pages.output.url}}
+      url: ${{ steps.github-pages.output.url }}
     runs-on: ubuntu-latest
     steps:
       - name: Clonar el Repositorio
