@@ -1,6 +1,7 @@
 name: VITE MPA Publicar a Github Pages
 
 #Cuando se dispara (cuando se hace un push) se dice con on
+#probando
 
 on:
   push:
