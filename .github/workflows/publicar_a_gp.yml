@@ -40,8 +40,8 @@ jobs:
         run: npm install
       - name: Compilar el Proyecto en Dist
         run: npm run build
-      - name: Configurar Github Pafes para Publicar
-        uses: actions/configure-pafes@v5
+      - name: Configurar Github Pages para Publicar
+        uses: actions/configure-pages@v5
       - name: Subir los Compilados (DIST)
         uses: actions/upload-pages-artifact@v4
         with:
